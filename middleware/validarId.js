@@ -5,7 +5,7 @@ const validarID = async(req, res, next)=>{
         if (item !== null) {
             next()
         } else {
-            res.status(500).json({msg: "el nombre es invalido"})
+            res.status(500).json({msg: "el medicamento no existe"})
         }  
         
     } catch (error) {
