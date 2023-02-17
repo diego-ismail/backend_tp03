@@ -22,5 +22,5 @@ Para ver la lista de todos los medicamentos:
     usar el método GET http://localhost:3000/api/vertodo
 
 Para ver un medicamento en particular:
-    usar el método GET 
+    usar el método GET http://localhost:3000/api/ver/reliveran (siendo reliveran un medicamento ya existente)
 
